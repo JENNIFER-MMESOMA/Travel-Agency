@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(234, 238, 241);
+}
+
+.custom {
+    background-image: url("C:/Users/user/Downloads/pexels-francesco-ungaro-2835436 1.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.last-item {
+    background-color: white;
+    color: black !important;
+    border-radius: 5px;
+}
+
+.hero-container {
+    align-items: center;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.custom-position {
+    position: absolute;
+    top: 540px;
+    left: 62.5px;
+}
+
+.container-last {
+    margin-top: -58px;
+    left: 130px;
+    z-index: 1;
+    border-radius: 0 50px 50px 50px;
+    height: auto;
+}
+
+.search-btn {
+    border-radius: 15px;
+    background-color: rgb(2, 152, 239);
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .custom-position {
+        position: static;
+        top: auto;
+        left: auto;
+        margin-top: 20px;
+    }
+
+    .container-last {
+        margin-top: 20px;
+        left: 0 !important;
+    }
+
+    .search-btn {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-container h1 {
+        font-size: 2rem;
+    }
+
+    .hero-container p {
+        font-size: 1rem;
+    }
+
+    .custom-position {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+
+.card-text {
+    padding-left: 10px;
+    background-color: #000000;
+}
+}
+/* second section */
+@media only screen and (max-width:1023px ) {
+  
+.three-cards {
+  width: 14rem;
+}
+
+}
+
+  .container p {
+    display: inline-block;
+    margin: 0 10px; /* Adjust the margin as needed */
+    border-radius: 5px; /* Add rounded corners to all <p> elements */
+    padding: 5px 10px; /* Add padding for better appearance */
+  }
+.letter-space {
+    letter-spacing: 3px;
+}
+  .line-space {
+    line-height: 2.2;
+    
+  }
+@media only screen and (max-width: 1199px) {
+  .image {
+    width:400px ;
+    height: auto;
+  }
+  
+}
+
+@media only screen and (max-width: 997px) {
+  .image {
+    width:300px ;
+    height: auto;
+  }
+  .text-arr {
+    margin-top: 0!important;
+    line-height: 1.5;
+    }
+}
+  /* two cards section */
+  
+  .box {
+    position: relative;
+    width: 550px; /* Adjust width as needed */
+    height: 450px; /* Adjust height as needed */
+    background-color: #fff; /* Adjust background color as needed */
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 20px;
+    text-align: center; /* Center the text horizontally */
+  }
+  
+  .circle {
+    position: absolute;
+    bottom: -20px; /* Adjust top position to make the circle partly inside the box */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px; /* Adjust circle size as needed */
+    height: 120px; /* Adjust circle size as needed */
+    background-color: white; /* Adjust circle background color as needed */
+    border-radius: 50%; /* Makes the circle shape */
+    overflow: hidden; /* Ensures the image doesn't overflow the circle */
+  }
+  
+  .circle img {
+    width: 100%; /* Make the image fill the circle */
+    height: 100%; /* Make the image fill the circle */
+    object-fit: cover; /* Ensure the image covers the circle */
+  }
+  
+  .center-img-wrapper {
+    position: relative;
+  }
+  
+  .center-img {
+    width: 100px; /* Adjust center image size as needed */
+    height: 100px; /* Adjust center image size as needed */
+  }
+  
+  .text {
+    position: absolute;
+    top: 45%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    font-size: 18px; /* Adjust font size as needed */
+  }
+  @media only screen and (max-width: 1208px) {
+    .box {
+        position: relative;
+        width: 400px; /* Adjust width as needed */
+        height: 350px; /* Adjust height as needed */
+        background-color: #fff; /* Adjust background color as needed */
+        border-radius: 20px;
+        text-align: center; /* Center the text horizontally */
+        overflow: visible; /* Ensure text doesn't overflow out of the box */
+    }
+    .text {
+        position: absolute;
+        font-size: 10px; /* Adjust font size as needed */
+        top: 50%; /* Center text vertically */
+        left: 50%; /* Center text horizontally */
+        transform: translate(-50%, -50%); /* Adjust positioning to be centered */
+    }
+    .circle {
+      position: absolute;
+      bottom: -50px; /* Adjust top position to make the circle partly inside the box */
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px; /* Adjust circle size as needed */
+      height: 100px; /* Adjust circle size as needed */
+      background-color: white; /* Adjust circle background color as needed */
+      border-radius: 50%; /* Makes the circle shape */
+      overflow: hidden; /* Ensures the image doesn't overflow the circle */
+    }
+}
+
+@media only screen and (min-width:765px) and (max-width:992px) {
+  .box {
+    position: relative;
+    width: 300px; /* Adjust width as needed */
+    height: 250px; /* Adjust height as needed */
+    background-color: #fff; /* Adjust background color as needed */
+    border-radius: 20px;
+    text-align: center; /* Center the text horizontally */
+    overflow: visible;
+} 
+
+.text {
+  position:absolute;
+ top:40%;
+  font-size: 9px; /* Adjust font size as needed */
+}
+.circle {
+  position: absolute;
+  bottom: -50px; /* Adjust top position to make the circle partly inside the box */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px; /* Adjust circle size as needed */
+  height: 100px; /* Adjust circle size as needed */
+  background-color: white; /* Adjust circle background color as needed */
+  border-radius: 50%; /* Makes the circle shape */
+  overflow: hidden; /* Ensures the image doesn't overflow the circle */
+}
+ 
+}
+
+  /* register section */
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+
+  /* last section */
+  .short-black-line {
+    border: none;
+    border-top: 2px solid rgb(0, 0, 0); /* Adjust thickness and color */
+    width:380px; /* Adjust the width as needed */
+    margin: 20px auto; /* Center the line horizontally */
+  }
+
+  .container-box {
+    width: 56px; /* Set the width of the containers */
+    height: 90px; /* Set the height of the containers */
+    margin: 10px; /* Add some space between containers */
+    border-radius: 33px;
+    display: inline-block; /* Make the container inline-block */
+  }
+  .box1 { background-color: #ffffff; } 
+  .box2 { background-color: #000000; } 
+  .box3 { background-color: #2067e3; } 
+  .box4 { background-color: #7c7c7c; } 
+
+  .box-container {
+    display: inline-block; /* Keep the container and text inline */
+    text-align: center; /* Center the text under the container */
+  }
+  .text-color {
+    color: #461bf0;
+  }
